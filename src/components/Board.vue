@@ -14,7 +14,7 @@
 <script>
 import { throttle, debounce } from 'throttle-debounce'
 import { mapState, mapGetters } from 'vuex'
-import { learningDB } from '../utils/autoLearningDB.js' 
+import { learningDB } from '../utils/autoLearningDB' 
 
 const paddingTop = 10, paddingBottom = 26, paddingX = 26
 
